@@ -22,6 +22,26 @@
     background-color: #525252;
 }
 
+/* -----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
 /* -----------------------------------------Heading */
 
 header {
@@ -98,7 +118,7 @@ header {
 }
 
 .menuitem span {
-    display : block;
+    display: block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
@@ -111,6 +131,14 @@ header {
 /* -----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/* -----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color:#fafafa;
     height: 120px;
 }
